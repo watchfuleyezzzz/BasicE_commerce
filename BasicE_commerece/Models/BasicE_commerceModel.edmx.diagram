@@ -23,6 +23,7 @@
         <AssociationConnector Association="basicE_commerceModel.FK_Transition_Invoice" ManuallyRouted="false" />
         <AssociationConnector Association="basicE_commerceModel.FK_ProductCart_Product" ManuallyRouted="false" />
         <AssociationConnector Association="basicE_commerceModel.FK_ProductInvoice_Product" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="basicE_commerceModel.Slider" Width="1.5" PointX="8.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

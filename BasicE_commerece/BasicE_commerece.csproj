@@ -2233,6 +2233,7 @@
     <Compile Include="Models\Customer.cs">
       <DependentUpon>BasicE_commerceModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Extended\Product.cs" />
     <Compile Include="Models\Invoice.cs">
       <DependentUpon>BasicE_commerceModel.tt</DependentUpon>
     </Compile>
@@ -2243,6 +2244,9 @@
       <DependentUpon>BasicE_commerceModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ProductInvoice.cs">
+      <DependentUpon>BasicE_commerceModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Slider.cs">
       <DependentUpon>BasicE_commerceModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\sysdiagram.cs">
@@ -2265,6 +2269,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\Product.cshtml" />
     <Content Include="Views\Home\ProductAdd.cshtml" />
+    <Content Include="Views\Home\Comment.cshtml" />
+    <Content Include="Views\Home\Slider.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

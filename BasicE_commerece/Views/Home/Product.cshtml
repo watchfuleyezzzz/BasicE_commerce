@@ -8,7 +8,7 @@
 <h2>Product</h2>
 
 <p>
-    @Html.ActionLink("Create New", "ProductAdd")
+    @Html.ActionLink("Add new Product", "ProductAdd")
 </p>
 <table class="table">
     <tr>
@@ -30,7 +30,8 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
+@foreach (var item in Model)
+{
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.Name)

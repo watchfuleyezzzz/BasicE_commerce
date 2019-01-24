@@ -34,5 +34,6 @@ namespace BasicE_commerece.Models
         public virtual DbSet<ProductInvoice> ProductInvoices { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<Transition> Transitions { get; set; }
+        public virtual DbSet<Slider> Sliders { get; set; }
     }
 }
